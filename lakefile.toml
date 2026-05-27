@@ -1,0 +1,12 @@
+name = "TUT"
+defaultTargets = ["TUT"]
+
+[[lean_lib]]
+name = "TUT"
+globs = ["TUT_RH_Final", "TUT_Convergence", "TUT_Equivalence",
+"TUT_BraidMatrix", "TUT_NaturalRH", "TUT_ComplexBraid", "TUT_RH_Internal"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "main"
